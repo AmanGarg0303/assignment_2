@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dappr</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="bg-[#4830ff] px-10 py-6 text-white fixed top-0 w-full z-10">
+      <div class="flex justify-between items-center">
+        <h1 class="text-5xl font-bold">Dappr</h1>
+
+        <div class="flex items-center gap-10">
+          <ul type="none" class="flex gap-10 text-xl">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Information</li>
+            <div class="flex items-center gap-2">
+              <li>More</li>
+              <i class="fa fa-caret-down"></i>
+            </div>
+          </ul>
+
+          <div class="bg-white rounded-full flex items-center gap-3 px-3">
+            <input
+              type="text"
+              placeholder="Search..."
+              class="outline-none text-black rounded-full py-2"
+            />
+            <i class="fa fa-search" style="color: black"></i>
+          </div>
+        </div>
+
+        <i class="fa fa-bars" style="font-size: 40px"></i>
+      </div>
+    </nav>
+
+    <main class="px-16">
+      <div class="flex gap-10 mt-32 mb-16">
+        <div class="flex-1">
+          <img
+            src="https://images.unsplash.com/photo-1626218174358-7769486c4b79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwcGN8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+            alt=""
+            class="rounded-lg shadow-lg shadow-gray-600 w-full"
+          />
+        </div>
+        <div
+          class="flex-[2] border rounded-lg bg-[#E5D8FF] shadow-inner shadow-lg shadow-gray-600"
+        >
+          <p class="p-3 text-gray-700 text-lg">
+            It's not only writers who can benefit from this free online tool. If
+            you're a programmer who is working on... If you are interested in
+            systematically analyzing content, you might want to learn more about
+            content coding. Content coding is a method to systematically analyze
+            pieces of information.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex justify-between text-2xl font-semibold text-white">
+        <div
+          class="rounded-lg px-20 py-10 shadow-lg shadow-green-400 bg-green-700 space-y-3"
+        >
+          <h3>Total Question's</h3>
+          <p>200,000</p>
+        </div>
+        <div
+          class="rounded-lg px-20 py-10 shadow-lg shadow-[#734cf2] bg-[#734cf2] space-y-3"
+        >
+          <h3>Total Answers's</h3>
+          <p>105,000</p>
+        </div>
+        <div
+          class="rounded-lg px-20 py-10 shadow-lg shadow-[#d288ff] bg-[#d288ff] space-y-3"
+        >
+          <h3>Participated</h3>
+          <p>10,000</p>
+        </div>
+        <div
+          class="rounded-lg px-20 py-10 shadow-lg shadow-gray-400 bg-black space-y-3"
+        >
+          <h3>Total Passed</h3>
+          <p>6,000</p>
+        </div>
+      </div>
+
+      <div class="bg-[#483eff] border rounded-lg flex gap-10 my-16 p-10">
+        <div
+          class="flex flex-col gap-6 justify-around text-2xl font-semibold text-center uppercase"
+        >
+          <div
+            class="bg-[#bce0f6] rounded-lg px-14 py-8 shadow-md shadow-gray-500"
+          >
+            Your Info
+          </div>
+          <div class="border-4 text-white rounded-lg px-14 py-8">Bookmarks</div>
+          <div class="border-4 text-white rounded-lg px-14 py-8">Settings</div>
+        </div>
+
+        <div class="border w-full rounded-lg px-10 py-6 bg-white">
+          <h6 class="font-semibold text-3xl">Your Information</h6>
+          <div class="flex flex-col gap-3 py-5 px-3 text-lg">
+            <p><strong>Name :</strong> Aman Garg</p>
+            <p><strong>Email :</strong> amangarg0303@gmail.com</p>
+            <p><strong>Phone :</strong> +91 123456789</p>
+            <p><strong>Marks :</strong> 500.00</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Fixed Chat Icon -->
+    <div class="fixed bottom-0 right-4">
+      <img src="chat.svg" alt="" class="w-32 cursor-pointer" />
+    </div>
+
+    <div class="fixed top-[30%] right-0">
+      <div class="flex flex-col gap-2">
+        <div
+          class="border border-black p-2 rounded-md flex justify-center items-center"
+        >
+          <i class="fa fa-whatsapp" style="font-size: 30px"></i>
+        </div>
+        <div>
+          <div
+            class="border border-black p-2 rounded-md flex justify-center items-center"
+          >
+            <i class="fa fa-facebook" style="font-size: 30px"></i>
+          </div>
+        </div>
+        <div>
+          <div
+            class="border border-black p-2 rounded-md flex justify-center items-center"
+          >
+            <i class="fa fa-twitter" style="font-size: 30px"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
